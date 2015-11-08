@@ -181,6 +181,6 @@ helper();
 console.log('start');
 init();
 
-window.onload = init;
+//window.onload = init;
 
 })();
