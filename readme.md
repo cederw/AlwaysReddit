@@ -6,4 +6,4 @@ Now with Always Reddit these problems will be resovled. It reads reddit comments
 
 ##Installation
 One day this extension will be availible in the Chrome Web Store, but not yet.
-For now clone this repo into a folder, open the Chrome extensions, turn on developer tools, and hit the 'load unpacked extension' button. Then select the foler you cloned this repo into to complete the install. 
+For now clone this repo into a folder, open the Chrome extensions, turn on developer tools, and hit the 'load unpacked extension' button. Then select the folder you cloned this repo into to complete the install. 
