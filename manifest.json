@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Always Reddit",
+  "description": "This extension will read reddit comments about any page you visit",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["reddit.min.js", "popup.js" ]
+    }
+  ],
+  "background": {
+      "scripts": ["background.js"]
+    },
+
+  
+  "permissions": [
+    "http://*/", "activeTab", "https://*/"
+  ]
+}
